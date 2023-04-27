@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <title>Indov - магазин мужской одежды</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="backround">
+    <header class="header">
+        <div class="logo">
+            <a href="#logo">
+                <img src="images/logo.png" alt="Indov - магазин мужской одежды">
+            </a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <a href="#">
+                <img src="images/cart.png" alt="Корзина">
+            </a>
+        </div>
+    </header>
+    <main class="content">
+        <section class="categories">
+            <h2>Категории товаров</h2>
+            <ul>
+                <li><a href="#">Одежда</a></li>
+                <li><a href="#">Обувь</a></li>
+                <li><a href="#">Аксессуары</a></li>
+            </ul>
+            <h2>Фильтры</h2>
+            <ul>
+                <li>
+                    <label for="price">Цена:</label>
+                    <input type="range" id="price" name="price" min="0" max="100" value="50">
+                </li>
+                <li>
+                    <label for="brand">Бренд:</label>
+                    <select id="brand" name="brand">
+                        <option value="zara">Zara</option>
+                        <option value="ea7">EA7</option>
+                        <option value="trussardi">Trussardi</option>
+                        <option value="kappa">KAPPA</option>
+                        <option value="lacoste">Lacoste</option>
+                        <option value="polo">POLO</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+.backround {
+    background-image: url(img/indov-logo.jpeg);
+    background-size: cover;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.categories {
+    padding: 20px;
+}
+
+.categories {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+
+.categories {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.categories {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666;
+    text-decoration: underline;
+}
